@@ -1,10 +1,10 @@
-# Sea Ice Data MURI Website
-https://math.dartmouth.edu/~muri
+# Bohan's Personal Website
+https://math.dartmouth.edu/~bzhou
 
 ## Moving into production.
-There are two special branches in this repository: the `staging` branch and the `production` branch.  The staging branch is used to create the website displayed at [https://math.dartmouth.edu/~muri/staging](https://math.dartmouth.edu/~muri/staging).  Similarly, the production branch is used to create the main website at [https://math.dartmouth.edu/~muri](https://math.dartmouth.edu/~muri).   The `staging` branch should be used to test the website before moving it into `production`.
+There are two special branches in this repository: the `staging` branch and the `production` branch.  The staging branch is used to create the website displayed at [https://math.dartmouth.edu/~bzhou/staging](https://math.dartmouth.edu/~bzhou/staging).  Similarly, the production branch is used to create the main website at [https://math.dartmouth.edu/~bzhou](https://math.dartmouth.edu/~bzhou).   The `staging` branch should be used to test the website before moving it into `production`.
 
-Every two minutes, a script on gauss.dartmouth.edu checks to see if there have been changes to the `staging` branch.   If there are changes, the latest commit is pulled and Jekyll is run to build the site, which is then displayed at [https://math.dartmouth.edu/~muri/staging](https://math.dartmouth.edu/~muri/staging).    
+Every two minutes, a script on gauss.dartmouth.edu checks to see if there have been changes to the `staging` branch.   If there are changes, the latest commit is pulled and Jekyll is run to build the site, which is then displayed at [https://math.dartmouth.edu/~bzhou/staging](https://math.dartmouth.edu/~bzhou/staging).    
 
 Every hours, the same process is performed for the `production` branch.
 
@@ -54,8 +54,8 @@ git pull origin staging
 1. Check out the `staging` branch (or your own branch)
 1. Add a headshot image to the `assets/images` folder.  Try to keep the filesize under 1 MB.
 1. Add the person's name, the name of the image file, and some text describing their position to `_data/people.yml`.   Copy one of the other entries to get started.   Indentation is important (use spaces).   
-1. Commit and push your changes to the `staging` branch on GitHub.   If everything is working correctly, a few minutes later you should see the update on the [staging website](https://math.dartmouth.edu/~muri/staging/People.html).
-1. Once everything looks good on the staging website, contact someone with write privelages on the `production` branch (e.g., Matt or Yoonsang) to update the [main website](https://math.dartmouth.edu/~muri/staging/People.html).
+1. Commit and push your changes to the `staging` branch on GitHub.   If everything is working correctly, a few minutes later you should see the update on the [staging website](https://math.dartmouth.edu/~bzhou/staging/People.html).
+1. Once everything looks good on the staging website, contact someone with write privelages on the `production` branch (e.g., Matt or Yoonsang) to update the [main website](https://math.dartmouth.edu/~bzhou/staging/People.html).
 
 
 ## Testing Locally
