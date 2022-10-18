@@ -1,0 +1,17 @@
+# Site settings
+title: Sea Ice MURI
+email: "Matthew.D.Parno@dartmouth.edu"
+author: "Matthew Parno"
+url: "https://math.dartmouth.edu"
+baseurl: "/~muri"
+markdown: kramdown
+
+exclude: ['./README.md']
+
+# Build settings
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+plugins:
+  - jekyll-relative-links

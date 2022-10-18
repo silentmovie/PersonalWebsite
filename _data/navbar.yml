@@ -1,0 +1,8 @@
+- name: People
+  link: /People.html
+- name: Publications
+  link: /Publications.html
+- name: Activities
+  link: /Activities.html
+- name: Image Gallery
+  link: /imagegallery.html

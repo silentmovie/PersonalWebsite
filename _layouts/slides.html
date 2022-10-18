@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  {% include header.html %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/flexslider.css">
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+</head>
+
+
+
+    <body>
+      {% include navbar.html %}
+      <div class="container">
+
+      <div class="row">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-10">
+          {% include flexslider-posts.html %}
+            {{ content }}
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+
+      {% include footer.html %}
+      {% include flexslider-scripts.html %}
+
+  </div>
+</div>
+</div>
+    </body>
+
+</html>
