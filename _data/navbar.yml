@@ -1,8 +1,12 @@
-- name: People
-  link: /People.html
+- category: Home
+  link: /index.html
+- name: Research
+  link: /Research.html
+- name: Teaching
+  link: /Teaching.html
 - name: Publications
   link: /Publications.html
 - name: Activities
   link: /Activities.html
-- name: Image Gallery
-  link: /imagegallery.html
+# - name: Image Gallery
+#   link: /imagegallery.html
