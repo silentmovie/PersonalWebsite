@@ -21,7 +21,7 @@ title: Teaching
 - Reading Courses on Optimal Transport. 
 
 #### UC Davis, Teaching Assistant.
-- 2020 Winter: [MAT 201B Analysis (Grad).](/Teaching/W2020/2020w201b.html)
+- 2020 Winter: [MAT 201B Analysis (Grad).]({{site.baseurl}}/Teaching/W2020/2020w201b.html)
 - 2019 Fall: [MAT 201A Analysis (Grad).](/Teaching/F2019/2019f201a.html)
 
 #### UC Davis, Associate Instructor.

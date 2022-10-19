@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{/2020w201b.html}
+
+== Basic Information
+
+*Office Hours* Th 3:10-4pm at Room 3131 Math Science Building\n
+*Email* bhzhou AT ucdavis DOT edu\n
+
+== Homework and Solution
+
+[201bhw1.pdf HW1]  [hw1bsoln.pdf Soln1]\n
+[201bhw2.pdf HW2]  [hw2bsoln.pdf Soln2]\n
+[201bhw3.pdf HW3]  [hw3bsoln.pdf Soln3]\n
+[201bhw4.pdf HW4]  [hw4bsoln.pdf Soln4]\n
+[201bhw5.pdf HW5]  [hw5bsoln.pdf Soln5]\n
+[201bhw6.pdf HW6]  [hw6bsoln.pdf Soln6]\n
+[201bhw7.pdf HW7]  [hw7bsoln.pdf Soln7]\n
+[201bhw8.pdf HW8]  [hw8bsoln.pdf Soln8]\n
+
+
+== Discussions
+
+- Week 1: Reproducing Kernel Hilbert Space and dual norm of the space of measures [week_1.pdf Week1]\n
+
+- Week 2: Measure space, Why we need Sigma-algebra [week_2.pdf Week2]\n
+
+- Week 3: Borel measurable function V.S. Lebesgue measurable function, and $(\mathcal{M},\mathcal{N})$ measurable function [week_3.pdf Week3]\n
+
+- Week 4: Absent due to out of town. Working for making-up notes\n
+
+- Week 5: Fourier Series for $L^2({\rm I\!R})$ functions [week_5.pdf Week5]\n
+
+- Week 6: An introduction to Sobolev space [week_6.pdf Week6]\n
+
+- Week 7: Bounded linear operators on Hilbert space [week_7.pdf Week7]\n
+
+- Week 8: The space of bounded linear operators on Hilbert space and its topology [week_8.pdf Week8]\n
+
+- Week 9: The resolvent set and the spectrum of bounded linear operators on Hilbert space [week_9.pdf Week9]\n
+
+- Week 10: The compact, self-adjoint operators on any separable Hilbert space [week_10.pdf Week10]\n

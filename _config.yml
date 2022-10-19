@@ -3,7 +3,7 @@ title: Bohan Zhou's Personal Webpage
 email: "Matthew.D.Parno@dartmouth.edu"
 author: "Matthew Parno"
 url: "https://math.dartmouth.edu"
-baseurl: "/PersonalWebsite"         #Change this to the local folder that stores the assets.
+baseurl: "/~bzhou"         #Change this to the local folder that stores the assets.
 markdown: kramdown
 
 exclude: ['./README.md']

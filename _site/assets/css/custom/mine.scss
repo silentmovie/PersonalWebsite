@@ -1,0 +1,176 @@
+/*!
+ * Start Bootstrap - Business Frontpage (https://startbootstrap.com/templates/business-frontpage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+
+$font-size-base: 1rem;
+
+table {
+  @extend .table;
+}
+
+.navbar {
+ min-height: 40px;
+}
+
+.navbar-brand {
+ padding: 0 15px;
+ height: 40px;
+ line-height: 40px;
+}
+
+.navbar-toggle {
+ /* (80px - button height 34px) / 2 = 23px */
+ margin-top: 0px;
+ padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+ .navbar-nav > li > a {
+   /* (80px - line-height of 27px) / 2 = 26.5px */
+   padding-top: 0px;
+   padding-bottom: 0px;
+   line-height: 15px;
+ }
+}
+
+/* SMALL SCREENS (“mobile first”) */
+
+#logo {
+    grid-area: lg;
+    position: relative;
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#logo-dart img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 47%;
+    height: auto;
+}
+#logo-math img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 47%;
+    height: auto;
+}
+
+#header {
+    grid-area: hd;
+    text-align: center;
+    color: #666666;
+    background-color: #EEEEEE;
+}
+
+#navigation {
+    grid-area: nv;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    margin-bottom:1cm;
+}
+
+#content {
+    grid-area: ct;
+}
+
+#footer {
+    grid-area: ft;
+}
+
+
+th, td {
+  padding: 7px;
+}
+
+/* navigation */
+/* Hamburger */
+#navigation label {
+    display: inline-block;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 5px;
+}
+/* hide checkbox */
+#hamburger {
+    display: none;
+}
+/* Toggle show/hide menu on checkbox click */
+#navigation ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+/* Break down menu items into vertical */
+#navigation ul li {
+    display: block;
+    padding: 5px;
+}
+#navigation ul li:hover {
+    background-color: #999999;
+}
+#navigation ul li a {
+    text-decoration: none;
+    border: none;
+}
+#navigation input:checked ~ ul {
+    display: block;
+}
+
+.down {
+    display: none;
+}
+
+body .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/********* BIGGER SCREENS **********/
+@media (min-width: 520px) {
+  body .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+  #wrapper {
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-areas:
+	"lg lg lg lg"
+	"hd hd hd hd"
+	"nv nv nv nv"
+	".  ct ct . "
+	"ft ft ft ft";
+  }
+
+  /* Hide Hamburger */
+  #navigation label {
+    display: none;
+  }
+  /* Menu Items */
+  #navigation ul {
+    display: flex;
+    /* justify-content: center; /* flexbox align horizontal */
+    /* align-items: center; /* flexbox align vertical */
+    margin: 0;
+    padding: 0;
+  }
+  #navigation ul li {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .down {
+    display: inline;
+  }
+
+} /* END BIGGER SCREENS */
