@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<title>Sea ice dynamics via regularized optimal transport - Bohan Zhou's Personal Webpage</title>
+<title>Regularized optimal transport - Bohan Zhou's Personal Webpage</title>
 
 <link rel="stylesheet" href="/~bzhou/assets/css/main.css">
 <link rel="icon" href="/~bzhou/assets/images/graecolatinsquare_icon.png" type="image/png" />
@@ -100,12 +100,12 @@ MathJax.Hub.Config({
 
 <div class="col-md-10 py-5">
 
-<h2>Sea ice dynamics via regularized optimal transport</h2>
-<!-- <p> 31 Aug 2020 - Bohan</p> -->
-<p> Bohan</p>
+<h2>Regularized optimal transport</h2>
+<!-- <p> 31 Aug 2020 - Bohan - [Learning Posts]</p> -->
+<p> Bohan - [Learning Posts]</p>
 <p><img class="img-fluid" src="/~bzhou//assets/images/posts/parno-GRL2019.png" alt="OT" /></p>
 
-<p>In <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083037">Parno et al. (2019)</a>, we introduced a new way of estimating ice motion from satellite imagery using concepts from optimal transport.  The idea is to treat images as probability distributions and to leverage efficient regularized optimal transport algorithms to find a distance-minimizing transformation between images on subsequent days.  From the transformation we can extract distances, velocities, and strains.</p>
+<p>In <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083037">Parno et al. (2019)</a>, they introduced a new way of estimating ice motion from satellite imagery using concepts from optimal transport.  The idea is to treat images as probability distributions and to leverage efficient regularized optimal transport algorithms to find a distance-minimizing transformation between images on two subsequent days.  From the transformation we can extract distances, velocities, and strains. However, this framework is limited to 2 marginals and the computational method introduces blurring due to the regularization parameter. This is the starting point of the recent project on the exact method to multimariginal optimal transport (MMOT) framework.</p>
 
 
 </div>
