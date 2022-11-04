@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     {% include header.html %}
+    {% include mathjax-config.html %}
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
@@ -21,3 +22,4 @@
   </body>
 
 </html>
+

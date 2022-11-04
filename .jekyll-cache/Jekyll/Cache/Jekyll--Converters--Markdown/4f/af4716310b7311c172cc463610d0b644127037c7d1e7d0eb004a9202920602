@@ -1,0 +1,7 @@
+I"Å<p><img class="img-fluid" src="/~bzhou//assets/images/posts/Bohan_icefloe.gif" alt="Robertson Channel" /></p>
+
+<p>B. Zhou and M. Parno are working on a general multi-marginal optimal transport (MMOT) framework to obtain the continuous representation of discrete-in-time data. Given observations (called as marginals), our algorithm provides a prediction on the sea ice dynamics in a continuous time. This provides a solution to some stage in the <a href="https://simda-muri.github.io/challenges/source/descriptions/problem2.html">Lagrangian Observation Mapping</a>. The python package with its description can be found <a href="https://simda-muri.github.io/mmot/">here</a>.</p>
+
+<p>Using the SAR data (every 6 days) obtained from <a href="https://asf.alaska.edu">Alaska Satellite Facility</a> on the Robertson Channel (thanks to J. Park), the video shows the prediction dynamics every 2 day.</p>
+
+:ET

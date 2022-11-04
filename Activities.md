@@ -24,8 +24,8 @@ title: "Activities"
 
 ### Services
 
-* (Sep 2022 - June 2023) Joint with Alice and Mohammad. Applied & Computational Mathematics Seminar, Dartmouth College. [ACMS](https://math.dartmouth.edu/~acms/).
-* (Jan 2021 - March 2021) AWM Essay contest committee, Dartmouth College. [AWM](https://math.dartmouth.edu/~awmcontest/).
-* (Sep 2020 - June 2021) Joint with Timmy and Warren. Applied & Computational Mathematics Seminar, Dartmouth College. [ACMS](https://math.dartmouth.edu/~acms/).
+* (Sep 2022 - June 2023) Joint with Alice and Mohammad. Applied & Computational Mathematics Seminar, Dartmouth College. \[[ACMS](https://math.dartmouth.edu/~acms/)\]
+* (Jan 2021 - March 2021) AWM Essay contest committee, Dartmouth College. \[[AWM](https://math.dartmouth.edu/~awmcontest/)\]
+* (Sep 2020 - June 2021) Joint with Timmy and Warren. Applied & Computational Mathematics Seminar, Dartmouth College. \[[ACMS](https://math.dartmouth.edu/~acms/)\]
 
 

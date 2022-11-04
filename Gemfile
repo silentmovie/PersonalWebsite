@@ -6,6 +6,7 @@ source "https://rubygems.org"
 # includes all gem to use
 gem "jekyll"
 gem 'jekyll-relative-links'
+gem 'jekyll-spaceship'
 
 # gem "rails"
 

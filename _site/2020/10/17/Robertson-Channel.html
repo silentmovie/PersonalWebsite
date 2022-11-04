@@ -1,14 +1,133 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>Multimarginal optimal transport - Bohan Zhou's Personal Webpage</title>
 
 <link rel="stylesheet" href="/~bzhou/assets/css/main.css">
-<link rel="icon" href="/~bzhou/assets/images/graecolatinsquare_icon.png" type="image/png" />
+<link rel="icon" href="/~bzhou/assets/images/graecolatinsquare_icon.png" type="image/png">
 
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+    
+  </head>
+
+
+  <body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navigation">
+
+  <a class="navbar-brand" href="/~bzhou/">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="navbar-collapse collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/index.html"> </a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/Research.html">Research </a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/Teaching.html">Teaching </a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/Publications.html">Publications </a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/Activities.html">Activities </a>
+          </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/~bzhou/Posts.html">Posts </a>
+          </li>
+          
+        </ul>
+    </div>
+</nav>
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-1">
+</div>
+
+<div class="col-md-10 py-5">
+
+<h2>Multimarginal optimal transport</h2>
+<!-- <p> 17 Oct 2022 - Bohan - [Research Posts]</p> -->
+<p> Bohan - [Research Posts]</p>
+<!-- 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: [
@@ -38,76 +157,24 @@ MathJax.Hub.Config({
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+ -->
+<h5><span style="color:grey">Multi-marginal optimal transport for Sea Ice Dynamics Prediction</span></h5>
+<!--end_excerpt-->
 
+<p><img class="img-fluid" src="/~bzhou//assets/images/posts/Bohan_icefloe.gif" alt="Robertson Channel"></p>
 
-    
-  </head>
+<p>B. Zhou and M. Parno [<a href="https://arxiv.org/abs/2208.03025">1</a>] utilize a general multi-marginal optimal transport (MMOT) framework to obtain the continuous representation of discrete-in-time data. One possible application is the prediction on the sea ice dynamics. Given observations (called as marginals in the general framework) at different time-stamps, our method provides a prediction on the sea ice dynamics in a continuous time. This provides a solution to some stage in the <a href="https://simda-muri.github.io/challenges/source/descriptions/problem2.html">Lagrangian Observation Mapping</a>. The python package with its description can be found [<a href="https://simda-muri.github.io/mmot/">2</a>].</p>
 
+<p>Using the SAR data (every 6 days) obtained from <a href="https://asf.alaska.edu">Alaska Satellite Facility</a> on the Robertson Channel (thanks to our group member J. Park at Dartmouth), the video shows the prediction dynamics every 2 day. Even finer predictions are possible within a few minutes on a personal computer.</p>
 
-  <body>
-    
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"  id="navigation">
+<h5 id="references">References:</h5>
+<hr>
 
-  <a class="navbar-brand" href="/~bzhou/">HOME</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<ol>
+  <li><a href="https://arxiv.org/abs/2208.03025">Zhou and Parno, Efficient and Exact Multimarginal Optimal Transport with Pairwise Costs, 2022.</a></li>
+  <li><a href="https://simda-muri.github.io/mmot/">Parno and Zhou, MMOT2D python package, 2022.</a></li>
+</ol>
 
-    <div class="navbar-collapse collapse" id="navbarNav">
-        <ul class="navbar-nav">
-
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/index.html"> </a>
-          </li>
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/Research.html">Research </a>
-          </li>
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/Teaching.html">Teaching </a>
-          </li>
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/Publications.html">Publications </a>
-          </li>
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/Activities.html">Activities </a>
-          </li>
-          
-          <li  class="nav-item"
-              >
-              <a class="nav-link" href="/~bzhou/Posts.html">Posts </a>
-          </li>
-          
-        </ul>
-    </div>
-</nav>
-
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-1">
-</div>
-
-<div class="col-md-10 py-5">
-
-<h2>Multimarginal optimal transport</h2>
-<!-- <p> 17 Oct 2022 - Bohan - [Research Posts]</p> -->
-<p> Bohan - [Research Posts]</p>
-<p><img class="img-fluid" src="/~bzhou//assets/images/posts/Bohan_icefloe.gif" alt="OT" /></p>
-
-<p>B. Zhou and M. Parno are working on a general multi-marginal optimal transport (MMOT) framework to obtain the continuous representation of discrete-in-time data. Given observations (called as marginals), our algorithm provides a prediction on the sea ice dynamics in a continuous time. This provides a solution to some stage in the <a href="https://simda-muri.github.io/challenges/source/descriptions/problem2.html">Lagrangian Observation Mapping</a>. The python package with its description can be found <a href="https://simda-muri.github.io/mmot/">here</a>.</p>
-
-<p>Using the SAR data (every 6 days) obtained from <a href="https://asf.alaska.edu">Alaska Satellite Facility</a> on the Robertson Channel (thanks to J. Park), the video shows the prediction dynamics every 2 day.</p>
 
 
 </div>
