@@ -1,4 +1,0 @@
-I"c<p><img class="img-fluid" src="/~bzhou//assets/images/posts/parno-GRL2019.png" alt="OT" /></p>
-
-<p>In <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083037">Parno et al. (2019)</a>, they introduced a new way of estimating ice motion from satellite imagery using concepts from optimal transport.  The idea is to treat images as probability distributions and to leverage efficient regularized optimal transport algorithms to find a distance-minimizing transformation between images on two subsequent days.  From the transformation we can extract distances, velocities, and strains. However, this framework is limited to 2 marginals and the computational method introduces blurring due to the regularization parameter. This is the starting point of the recent project on the exact method to multimariginal optimal transport (MMOT) framework.</p>
-:ET

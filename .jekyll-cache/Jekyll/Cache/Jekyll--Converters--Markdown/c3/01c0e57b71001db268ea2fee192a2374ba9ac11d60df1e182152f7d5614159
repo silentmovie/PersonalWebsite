@@ -1,2 +1,0 @@
-I"b<p>A barycenter-type of problems is: given a set of objects $\mu_i$,  we are looking for something in that category that is close to those objects with respect to some metric. In our problems, we are particularly interested in the space of probability measures equipped with the Wasserstein distance, which was introduced by Agueh and Carlier [[1]].</p>
-:ET

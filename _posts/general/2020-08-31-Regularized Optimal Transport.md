@@ -7,7 +7,7 @@ image-slider: /assets/images/posts/parno-GRL2019.png
 categories: blog
 ---
 
-<h5><span style="color:grey">Measuring Ice Motion with Optimal Transport</span></h5>
+<h5><span style="color:#F58025">Measuring Ice Motion with Optimal Transport</span></h5>
 
 
 <img class="img-fluid" src="{{site.baseurl}}/{{page.image-slider}}" alt="OT">

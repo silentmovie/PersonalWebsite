@@ -7,6 +7,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem 'jekyll-relative-links'
 gem 'jekyll-spaceship'
+gem 'jekyll-last-modified-at'
 
 # gem "rails"
 

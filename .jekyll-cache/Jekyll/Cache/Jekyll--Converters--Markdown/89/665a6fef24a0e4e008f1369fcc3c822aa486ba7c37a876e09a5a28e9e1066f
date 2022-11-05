@@ -1,0 +1,40 @@
+I"ì	<h5><span style="color:#00703C">Wasserstein Interpolation Examples in Point Clouds</span></h5>
+<!--end_excerpt-->
+<div class="row">
+	<div class="column">
+	<img class="img-fluid" src="/~bzhou//assets/images/posts/Wass-dough.gif" alt="Wasserstein dough" />
+	</div>
+		<div class="column">
+	<img class="img-fluid" src="/~bzhou//assets/images/posts/Wass-rotation.gif" alt="Wasserstein rotation" />
+	</div>
+</div>
+
+<p>Tyler, an undergraduate student at Dartmouth College, wants to fully understand the Wasserstein interpolation. Though the Wasserstein interpolation is not a new stuff: between two given measures $\mu_1$ and $\mu_2$, one may define the Wasserstein interpolation through either a given optimal transport map $T$:</p>
+
+<p>\begin{equation}
+\label{eq:Wass_int_map}
+\mu_t = ((1-t)x+tT(x))_{\sharp}\mu_1;
+\end{equation}</p>
+
+<p>or a given optimal transport plan $P$:</p>
+
+<p>\begin{equation}
+\label{eq:Wass_int_plan}
+\mu_t = ((1-t)x+ty)_{\sharp} P.
+\end{equation}</p>
+
+<p>However, as shown in the above animation figures, the Wasserstein interpolation is not that stable: Given two sets of two point clouds (blue point cloud at time 0 and red point cloud at time 1). On the left plot, they are in 90 degree intersected at their ends; on the right plot, they are in 84.55 degree intersected at their ends. However their interpolation behaviors via the Wasserstein interpolation look quite different. The left one is analogous with deformations of doughs in the bakery, the right one is almost regular rotation of a baguette.</p>
+
+<p>In this particular example, we can explain it via optimal transport theory while there is still a long way towards a full understanding on the Wasserstein interpolation, so that predictions based on the Wasserstein interpolation are controlable.</p>
+
+<p>Our current code owes a debt of gratitute to Prof. Peyreâ€™s open-resource online experiments [<a href="https://arxiv.org/abs/2208.03025">1</a>], in particular, the linear programming to OT. In the future, we plan to use more recent faster solver [<a href="https://back-and-forth.netlify.app">2</a>], or more general MMOT solver [<a href="https://simda-muri.github.io/mmot/">3</a>].</p>
+<h5 id="references">References:</h5>
+<hr />
+
+<ol>
+  <li><a href="https://www.numerical-tours.com/python/">Peyre, Numerical Tours.</a></li>
+  <li><a href="https://back-and-forth.netlify.app">Jacobs and Leger, The Back-and-Forth Method, 2020.</a></li>
+  <li><a href="https://simda-muri.github.io/mmot/">Parno and Zhou, MMOT2D python package, 2022.</a></li>
+</ol>
+
+:ET

@@ -15,4 +15,6 @@ sass:
 
 plugins:
   - jekyll-relative-links
-  # - jekyll-spaceship
+  - jekyll-spaceship
+  - jekyll-last-modified-at
+
