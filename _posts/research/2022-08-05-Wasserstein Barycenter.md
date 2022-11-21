@@ -43,9 +43,9 @@ And the Wasserstein barycenter is introduced by
 
 Our method \[[2]\] provides an exact and efficient way to compute dual variables $(f_i)$ in an indirect way because the cost $c(x_1,\cdots,x_m)=\sum_{i<j}\frac{\lambda_i \lambda_j}{2} \|x_i-x_j\|^2$ corresponds to a complete graph: we find the dual variables $(\hat{f_i})$ to an equivalent MMOT in a tree and use those dual variables to recover the original dual variables $(f_i)$
 
-
-##### References:
 ----
+##### References:
+
 
 1. [Agueh and Carlier, Barycenter in the Wasserstein space, 2011.](http://doi.org/10.1137/100805741)
 2. [Zhou and Parno, Efficient and Exact Multimarginal Optimal Transport with Pairwise Costs, 2022.](https://arxiv.org/abs/2208.03025)

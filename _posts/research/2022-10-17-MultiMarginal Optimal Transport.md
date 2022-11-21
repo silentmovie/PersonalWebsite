@@ -18,8 +18,8 @@ B. Zhou and M. Parno \[[1]\] utilize a general multi-marginal optimal transport 
 
 Using the SAR data (every 6 days) obtained from [Alaska Satellite Facility](https://asf.alaska.edu) on the Robertson Channel (thanks to our group member J. Park at Dartmouth), the video shows the prediction dynamics every 2 day. Even finer predictions are possible within a few minutes on a personal computer.
 
-##### References:
 ----
+##### References:
 
 1. [Zhou and Parno, Efficient and Exact Multimarginal Optimal Transport with Pairwise Costs, 2022.](https://arxiv.org/abs/2208.03025)
 2. [Parno and Zhou, MMOT2D python package, 2022.](https://simda-muri.github.io/mmot/)

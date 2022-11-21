@@ -28,7 +28,7 @@ title: Research
 (Under Constructions. Please refer to [Posts]({{site.baseurl}}/Posts.html) for available short descriptions and intuitions.)
 
 
-#### Multimariginal Optimal Transport (MMOT)
+#### Multimariginal Optimal Transport (MMOT) <small><span style="color:#90EE90">[Green line project]</span></small>
 
 MMOT is a natural generalization from 2-marginal classical optimal transport problem to multi-marginals. The famous Wasserstein barycenter problem is an instance of MMOT problems. It can be used in data registrations, data fusion, etc...
 
@@ -38,6 +38,12 @@ Our python package description page can be found here [MMOT2D](https://simda-mur
 
 The application of MMOT on predicting sea ice dynamics can be found in our group page [Lagrangian Mapping](https://simda-muri.github.io/challenges/source/descriptions/problem2.html).
 
+
+#### Branched Optimal Transport and Fluids Mixing <small><span style="color:#FFA07A">[Orange line project]</span></small>
+
+#### Shape Analysis <small><span style="color:#6495ED">[Blue line project]</span></small>
+
+#### Despeckle and Denoising <small><span style="color:#DDA0DD">[Purple line project]</span></small>
 
 
 

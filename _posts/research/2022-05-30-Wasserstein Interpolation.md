@@ -38,15 +38,16 @@ However, as shown in the above animation figures, the Wasserstein interpolation 
 In this particular example, we can explain it via optimal transport theory while there is still a long way towards a full understanding on the Wasserstein interpolation, so that predictions based on the Wasserstein interpolation are controlable.
 
 Our current code owes a debt of gratitute to Prof. Peyre's open-resource online experiments \[[1]\], in particular, the linear programming to OT. In the future, we plan to use more recent faster solver \[[2]\], or more general MMOT solver \[[3]\]. 
-##### References:
+
 ----
+##### References:
+
 
 1. [Peyre, Numerical Tours.](https://www.numerical-tours.com/python/)
 2. [Jacobs and Leger, The Back-and-Forth Method, 2020.](https://back-and-forth.netlify.app)
 3. [Parno and Zhou, MMOT2D python package, 2022.](https://simda-muri.github.io/mmot/)
 
-
-[1]: https://arxiv.org/abs/2208.03025
+[1]: https://www.numerical-tours.com/python/
 [2]: https://back-and-forth.netlify.app
 [3]: https://simda-muri.github.io/mmot/
 

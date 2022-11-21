@@ -27,7 +27,7 @@ title: Teaching
 ##### UC Davis, Associate Instructor.
 - 2016 Summer session II: [MAT21C Calculus.](/Teaching/SII2016/MAT21C.html)
 
-### Students Presentations
+#### Students Presentations
 
 - Hansen's presentation on Bertrand Paradox: \[[PPT]({{site.baseurl}}/Teaching/Presentations/Hansen.pptx)\]
 - Sam's presentation on "count twice": \[[PPT]({{site.baseurl}}/Teaching/Presentations/Sam.pptx)\]

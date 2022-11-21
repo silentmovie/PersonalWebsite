@@ -1,0 +1,26 @@
+I"�<h5><span style="color:grey">Mixing under Rayleigh-Taylor instability</span></h5>
+<!--end_excerpt-->
+
+<div class="row">
+<img class="img-fluid" src="/~bzhou//assets/images/posts/zmodel.mov" alt="Zmodel" />
+</div>
+
+<p>This project is a follow-up to the paper [<a href="https://epubs.siam.org/doi/pdf/10.1137/16M1083463?casa_token=0dRxZ_jt06AAAAAA:T2Bgm0RnBw64UHFZygEuj4gScaPw01fnfWQU0APePKiajut4Bui_B03K4PeqUFfZ85MaITV9ow">1</a>]. In that paper, authors derived an asymptotic model for the motion of multiphase incompressible Euler flows in 2D, subjected to Rayleigh-Taylor(RT) instability, allowing turn-over.</p>
+
+<p>Matlab codes in [<a href="https://github.com/silentmovie/RTmodel">2</a>] simulates the mixing phenomenon caused by RT even for immiscible fluids without diffusion. To see how to measure mixedness without diffusion, see [<a href="https://simda-muri.github.io/mmot/">3</a>].</p>
+
+<p>In the movie, the top box simulates the “rocket rig” experiment (mixing of NaI solution and pentane using rocket motors), in an ensemble averaging procedure; the second box shows the occupied density in the zoom-in window averaged in all experiments; the third box shows the evolution of the mixedness in terms of $\dot{H}^{-1}$ norm; the fourth box shows the effect of artificial viscosity.</p>
+
+<p>Please refer to [<a href="https://arxiv.org/abs/2201.04538">4</a>] for the recent development.</p>
+
+<hr />
+<h5 id="references">References:</h5>
+
+<ol>
+  <li><a href="https://epubs.siam.org/doi/pdf/10.1137/16M1083463?casa_token=0dRxZ_jt06AAAAAA:T2Bgm0RnBw64UHFZygEuj4gScaPw01fnfWQU0APePKiajut4Bui_B03K4PeqUFfZ85MaITV9ow">Granero-Belinchon and Shkoller, A model for Rayleigh-Taylor mixing and interface turn-over, 2017.</a></li>
+  <li><a href="https://github.com/silentmovie/RTmodel">Zhou, RTmodel, 2020.</a></li>
+  <li><a href="https://iopscience.iop.org/article/10.1088/0951-7715/25/2/R1/pdf?casa_token=kxRedMFYm1QAAAAA:jtsmOCS0mceHwfRLlOsfEvV5YVVmZj-HNqMCKgyXhoac7HOUkUaKnyfEQlOruM9SJ1dL54_R1Q">Thiffeault, Using multiscale norms to quantify mixing and transport, 2011.</a></li>
+  <li><a href="https://arxiv.org/abs/2201.04538">Pandya and Shkoller, 3D interface models for Rayleigh-Taylor Problems, 2022.</a></li>
+</ol>
+
+:ET
